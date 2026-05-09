@@ -1,70 +1,98 @@
-# Getting Started with Create React App
+# Employee Leave Management System – Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern and responsive frontend application built using **React.js** for managing employee leave requests. This project is designed to work with a **Spring Boot backend API** and **MySQL database**.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Features
 
-### `npm start`
+### 👨‍💼 Employee Features
+- Secure Login
+- Apply for Leave
+- View Leave History
+- Track Leave Status (Pending / Approved / Rejected)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 🧑‍💼 Admin Features
+- Admin Login
+- View All Leave Requests
+- Approve / Reject Leaves
+- Dashboard Overview
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 🎨 UI Features
+- Responsive Design
+- Clean Dashboard Layout
+- Material UI / Custom CSS Components
+- Professional Login Page
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠️ Tech Stack
 
-### `npm run build`
+- React.js
+- JavaScript (ES6)
+- Axios
+- CSS3 / Material UI
+- React Hooks
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📁 Project Structure
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+src/
+├── components/
+│ ├── Navbar.js
+│ ├── Login.js
+│ ├── EmployeeDashboard.js
+│ ├── AdminDashboard.js
+│ ├── ApplyLeave.js
+│ └── LeaveHistory.js
+│
+├── services/
+│ └── api.js
+│
+├── App.js
+└── index.js
 
-### `npm run eject`
+yaml
+Copy code
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## ⚙️ Installation & Setup
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 1️⃣ Clone Repository
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+git clone https://github.com/yourusername/employee-leave-frontend.git
+cd employee-leave-frontend
 
-## Learn More
+2️⃣ Install Dependencies
+npm install
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+3️⃣ Run Project
+npm start
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Application runs on
+http://localhost:3000
 
-### Code Splitting
+🔗 Backend Connection
+Update API URL in:
+const BASE_URL = "http://localhost:8084/api";
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+🔐 Sample Login Credentials
+Admin
+Username: admin
+Password: admin123
+Employee
+Username: emp1
+Password: emp123
 
-### Analyzing the Bundle Size
+📌 Future Enhancements
+JWT Authentication
+Dark Mode
+Leave Analytics Charts
+Notifications
+Profile Management
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+👩‍💻 Author
+Developed by Poornima P
