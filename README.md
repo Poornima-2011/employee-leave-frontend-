@@ -73,18 +73,22 @@ Application runs on
 http://localhost:3000
 
 🔗 Backend Connection
+
 Update API URL in:
 const BASE_URL = "http://localhost:8084/api";
 
 🔐 Sample Login Credentials
+
 Admin
 Username: admin
 Password: admin123
+
 Employee
 Username: emp1
 Password: emp123
 
 📌 Future Enhancements
+
 JWT Authentication
 Dark Mode
 Leave Analytics Charts
