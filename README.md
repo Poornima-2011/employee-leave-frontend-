@@ -61,12 +61,14 @@ src/
 ### 1️⃣ Clone Repository
 
 git clone https://github.com/yourusername/employee-leave-frontend.git
-cd employee-leave-frontend
+
 
 2️⃣ Install Dependencies
+
 npm install
 
 3️⃣ Run Project
+
 npm start
 
 Application runs on
@@ -80,20 +82,29 @@ const BASE_URL = "http://localhost:8084/api";
 🔐 Sample Login Credentials
 
 Admin
+
 Username: admin
+
 Password: admin123
 
 Employee
+
 Username: emp1
+
 Password: emp123
 
 📌 Future Enhancements
 
 JWT Authentication
+
 Dark Mode
+
 Leave Analytics Charts
+
 Notifications
+
 Profile Management
 
 👩‍💻 Author
+
 Developed by Poornima P
