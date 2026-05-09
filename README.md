@@ -53,16 +53,13 @@ src/
 ├── App.js
 └── index.js
 
-yaml
-Copy code
 
----
+
 
 ## ⚙️ Installation & Setup
 
 ### 1️⃣ Clone Repository
 
-```bash
 git clone https://github.com/yourusername/employee-leave-frontend.git
 cd employee-leave-frontend
 
