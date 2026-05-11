@@ -60,7 +60,7 @@ src/
 
 ### 1️⃣ Clone Repository
 
-git clone https://github.com/Poornima-2011/employee-leave-frontend.git
+git clone  https://poornima-2011.github.io/employee-leave-frontend-/
 
 
 2️⃣ Install Dependencies
